@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Placeholder from '../components/Placeholder.astro';
+---
+
+<BaseLayout title="Astro Baseline">
+  <main class="mx-auto flex min-h-screen max-w-3xl flex-col gap-6 px-6 py-16">
+    <header class="space-y-3">
+      <p class="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">
+        Baseline
+      </p>
+      <h1 class="text-4xl font-semibold text-white">Astro 5 + Tailwind starter</h1>
+      <p class="text-base text-slate-300">
+        Project structure is ready. Build pages, layouts, and components from here.
+      </p>
+    </header>
+    <Placeholder label="Drop new UI here." />
+  </main>
+</BaseLayout>
